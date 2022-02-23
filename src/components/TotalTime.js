@@ -1,5 +1,4 @@
-import React, { useContext, useEffect } from 'react';
-import { TimeularContext } from './TimeularProvider';
+import React from 'react';
 
 export const TotalTime = ({ timeStarted, timeEnded }) => {
 

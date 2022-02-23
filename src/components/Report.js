@@ -76,7 +76,7 @@ export const Report = ({ chosenDate }) => {
                                 <h5><Time time={entry.duration.stoppedAt} /></h5>
                             </div>
                             <h5 style={evenSpacing}><TotalTime timeStarted={entry.duration.startedAt} timeEnded={entry.duration.stoppedAt} /></h5>
-                            <h5 style={activityNoteSpacing}>{activities.activities.find(a => a.id == entry.activityId)?.name}</h5>
+                            <h5 style={activityNoteSpacing}>{activities.activities.find(a => a.id === entry.activityId)?.name}</h5>
                             <h5 style={activityNoteSpacing}>{entry.note.text}</h5>
                         </div>
                     )
